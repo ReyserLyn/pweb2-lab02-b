@@ -20,16 +20,18 @@
     margin-bottom: 20px;
   }
   
-  .input-container input[type="text"] {
+  .input-container #text-input {
     flex-grow: 1;
     padding: 10px;
+    margin: 5px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none;
-  }
+    }
   
   .input-container button {
+    margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4caf50;
@@ -38,9 +40,14 @@
     border-radius: 4px;
     cursor: pointer;
   }
+
+  .input-container .btn-delete{
+    background-color: #e13333;
+  }
   
   #text-inv {
     margin-top: 10px;
+    height: 45px;
     font-size: 20px;
     background-color: #ffffff;
     border-radius: 4px;
@@ -54,7 +61,7 @@
       align-items: stretch;
     }
   
-    .input-container input[type="text"] {
+    .input-container #text-input {
       margin-bottom: 10px;
     }
   }
